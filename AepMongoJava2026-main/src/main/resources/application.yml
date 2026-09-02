@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: alimentos-excedentes-aep
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/alimentos
+
+springdoc:
+  swagger-ui:
+    path: /docs
+    operations-sorter: method
