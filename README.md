@@ -132,20 +132,11 @@ PUT    /api/alimentos/{id}
 DELETE /api/alimentos/{id}
 ```
 
-### POST
-Cadastra um novo alimento excedente.
-
-### GET
-Lista os alimentos cadastrados.
-
-### GET /{id}
-Consulta um alimento específico pelo seu identificador.
-
-### PUT
-Atualiza os dados de um alimento cadastrado.
-
-### DELETE
-Exclui um alimento cadastrado.
+**POST**: Cadastra um novo alimento excedente.
+**GET**: Lista os alimentos cadastrados.
+**GET /{id}**: Consulta um alimento específico pelo seu identificador.
+**PUT**: Atualiza os dados de um alimento cadastrado.
+**DELETE**: Exclui um alimento cadastrado.
 
 ---
 
@@ -155,7 +146,9 @@ Exclui um alimento cadastrado.
 
 Instale e configure:
 
+* IntelliJ IDEA (ou outra IDE compatível);
 * JDK 21;
+* Docker;
 * MongoDB;
 * Git.
 
@@ -164,13 +157,13 @@ Instale e configure:
 Clone o repositório do GitHub:
 
 ```bash
-git clone https://github.com/madudstan/AEP_2026
+git clone https://github.com/madudstan/AEP_2026.git
 ```
 
 Entre na pasta do projeto:
 
 ```bash
-cd AEP_2026
+cd AEP_2026/AepMongoJava2026-main
 ```
 
 ## 3. Iniciar o MongoDB
@@ -180,10 +173,10 @@ A aplicação deverá utilizar a configuração de conexão definida no projeto.
 
 ## 4. Executar a aplicação
 
-No Windows, utilizando o Maven Wrapper:
+Abra o IntelliJ IDEA, selecione Open e abra a pasta:
 
 ```bash
-mvnw.cmd spring-boot:run
+AepMongoJava2026-main.
 ```
 
 Ou, caso o Maven esteja instalado:

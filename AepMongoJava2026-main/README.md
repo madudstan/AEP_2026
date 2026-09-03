@@ -129,31 +129,23 @@ Não existem múltiplas coleções, relacionamentos ou documentos aninhados nest
 
 ## PRÉ-REQUISITOS
 
+- IntelliJ IDEA ou (outra IDE compatível);
 - JDK 21;
 - Docker;
-- Docker Compose v2;
+- Mongo DB;
 - Git.
-
-O projeto inclui Maven Wrapper, portanto não é necessário instalar Maven separadamente.
-
-Verifique:
-
-```bash
-java -version
-docker --version
-docker compose version
-./mvnw -version
-```
 
 ## EXECUÇÃO
 
 ### 1. Clonar o projeto
 
 ```bash
-git clone URL_DO_REPOSITORIO
-cd alimentos-excedentes-aep
+git clone https://github.com/madudstan/AEP_2026.git
 ```
-
+Entre na pasta do projeto:
+```bash
+cd AEP_2026/AepMongoJava2026-main
+```
 ### 2. Iniciar o MongoDB
 
 ```bash
