@@ -164,13 +164,13 @@ Instale e configure:
 Clone o repositório do GitHub:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/madudstan/AEP_2026
 ```
 
 Entre na pasta do projeto:
 
 ```bash
-cd NOME_DO_PROJETO
+cd AEP_2026
 ```
 
 ## 3. Iniciar o MongoDB
